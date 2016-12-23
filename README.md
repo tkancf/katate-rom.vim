@@ -1,4 +1,5 @@
-# katate-readonly-mode
+# katate-rom.vim
+katate-rom stands for "KATATE de Read Only file wo yomeru Mode".
 
 In read only files, you can do almost the operation with one hand.
 
@@ -17,7 +18,7 @@ In read only files, you can do almost the operation with one hand.
 
 ### vim-plug
 ```
-Plug 'tkancf/katate-readonly-mode.vim'
+Plug 'tkancf/katate-rom.vim'
 ```
 
 ## Configuration
@@ -25,7 +26,7 @@ This is an example ~/.vimrc configuration.
 
 ```
 augroup vimrc-filetype
-  autocmd BufRead,BufNewFile *.txt KatateReadOnlyMode
-  autocmd BufRead,BufNewFile *.jax KatateReadOnlyMode
+  autocmd BufRead,BufNewFile *.jax KatateROM
+  autocmd BufRead,BufNewFile *.txt KatateROM
 augroup END
 ```
