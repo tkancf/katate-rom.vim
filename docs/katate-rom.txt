@@ -1,4 +1,4 @@
-*katate-readonly-mode.txt*
+*katate-ROM.txt*
 In read only files, you can do almost the operation with one hand.
 
 Author: tkancf <tkncf789@gmail.com>
