@@ -1,14 +1,14 @@
 scriptencoding utf-8
 
-if exists('g:loaded_katate_readonly_mode')
+if exists('g:loaded_katatereadonlymode')
   finish
 endif
-let g:loaded_katate_readonly_mode = 1
+let g:loaded_katatereadonlymode = 1
 " ユーザー設定を一時退避
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! katate_readonly_mode#katate()
+function! katatereadonlymode#katate()
   if &readonly
 "   echo "KATATE READ!!!!"
     nnoremap <buffer> u <C-d>
