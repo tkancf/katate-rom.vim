@@ -56,9 +56,11 @@ USAGE							    *katate-rom-usage*
 In read only file.
 You can use a command.
 
-:KatateROM
+*:KatateROM*
   Change to "Katate mode"
 
+
+EX)
 
   This is an example ~/.vimrc configuration.
 
