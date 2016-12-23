@@ -1,10 +1,10 @@
 scriptencoding utf-8
 
-if exists('g:loaded_katatereadonlymode')
-  finish
-endif
-let g:loaded_katatereadonlymode = 1
-" ユーザー設定を一時退避
+"if exists('g:loaded_katatereadonlymode')
+"  finish
+"endif
+"let g:loaded_katatereadonlymode = 1
+
 let s:save_cpo = &cpo
 set cpo&vim
 
@@ -22,6 +22,5 @@ function! katatereadonlymode#katate()
   endif
 endfunction
 
-" 退避していたユーザ設定を戻す
 let &cpo = s:save_cpo
 unlet s:save_cpo
