@@ -18,7 +18,7 @@ function! kataterom#katate()
     nnoremap <buffer> <S-j> <C-e>
     nnoremap <buffer> <S-k> <C-y>
   else
-   echo "This file is not Read only FILE!!!!"
+"   echo "This file is not Read only FILE!!!!"
   endif
 endfunction
 
